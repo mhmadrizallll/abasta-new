@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abasta</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- corousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+      integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav
+      class="navbar navbar-expand-lg fixed-top shadow-sm"
+      style="background-color: #fff"
+    >
+      <div class="container d-flex align-items-center">
+        <!-- Brand -->
+        <a class="navbar-brand p-4" href="#">
+          <img src="img/logo.png" alt="logo" style="max-height: 50px" />
+        </a>
+
+        <!-- Toggler Button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarContent"
+          aria-controls="navbarContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Search Form -->
+        <form class="d-flex me-3 flex-grow-1 w-auto w-lg-50" role="search">
+          <div class="input-group">
+            <input
+              class="form-control rounded-pill"
+              type="search"
+              placeholder="🔍  Search something here"
+              aria-label="Search"
+            />
+          </div>
+        </form>
+
+        <!-- Navbar Content -->
+        <div
+          class="collapse navbar-collapse justify-content-between"
+          id="navbarContent"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item mx-3 fw-bold mt-2 mt-md-0">
+              <a class="nav-link text-black" href="index.html">Home</a>
+            </li>
+            <li class="nav-item mx-3 fw-bold mt-2 mt-md-0">
+              <a class="nav-link text-black" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item mx-3 fw-bold mt-2 mt-md-0">
+              <a class="nav-link text-black" href="product.html">Product</a>
+            </li>
+            <li class="nav-item mx-3 fw-bold mt-2 mt-md-0">
+              <a class="nav-link text-black" href="portofolio.html"
+                >Portofolio</a
+              >
+            </li>
+          </ul>
+
+          <!-- Buttons -->
+          <div class="d-flex justify-content-center mt-2 mt-md-0">
+            <a
+              href="#"
+              class="btn px-5 py-2 fw-bold w-100 text-white"
+              style="background-color: #134aeb"
+            >
+              Login
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- banner -->
+    <div class="container my-5">
+      <div class="banner">
+        <div class="text">
+          <h2>Produk Inovasi</h2>
+          <p>
+            "Produk hasil inovasi merupakan solusi cerdas yang dirancang untuk
+            memenuhi kebutuhan masa depan, menghadirkan kemajuan teknologi dan
+            efisiensi dalam berbagai sektor kehidupan."
+          </p>
+          <!-- Buttons -->
+          <div class="d-flex mt-2 mt-md-0">
+            <a
+              href="#"
+              class="btn fw-bold text-white"
+              style="background-color: #134aeb"
+            >
+              Contact Us
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end banner -->
+
+    <!-- card -->
+    <div class="container">
+      <div class="row card-row">
+        <div class="col-md-6 col-lg-4 mt-3">
+          <div
+            class="d-flex align-items-center justify-content-between px-4 py-2 py-md-4 gap-3 shadow-sm rounded-3"
+            style="background-color: #ffffff"
+          >
+            <div class="icon col-3 text-center">
+              <i class="fa-solid fa-building-columns fa-4x"></i>
+            </div>
+            <hr class="garis" />
+            <div class="col-8">
+              <h6>PENGADAAN SKALA DESA</h6>
+              <p>
+                Instalasi Alat Mesin Thermal Pemusnah Sampah (MTPS) Skala Desa /
+                Kapasitas Besar
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mt-3">
+          <div
+            class="d-flex align-items-center justify-content-between px-4 py-2 py-md-4 gap-3 shadow-sm rounded-3"
+            style="background-color: #ffffff"
+          >
+            <div class="icon col-3 text-center">
+              <i class="fa-solid fa-building fa-4x"></i>
+            </div>
+            <hr class="garis" />
+            <div class="col-8">
+              <h6>PENGADAAN SKALA RT/RW</h6>
+              <p>
+                Instalasi Alat Mesin Thermal Pemusnah Sampah (MTPS) Skala RT /
+                Kapasitas Sedang
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mt-3">
+          <div
+            class="d-flex align-items-center justify-content-between px-4 py-2 py-md-4 gap-3 shadow-sm rounded-3"
+            style="background-color: #ffffff"
+          >
+            <div class="icon col-3 text-center">
+              <i class="fa-solid fa-house-chimney fa-4x"></i>
+            </div>
+            <hr class="garis" />
+            <div class="col-8">
+              <h6>PORTABLE</h6>
+              <p>
+                Mesin Thermal Pemusnah Sampah (MTPS) Rumahan / Kapasitas sampah
+                Rumah Tangga
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end card -->
+
+    <!-- product corousel -->
+    <div class="container my-5 slick-carousel product-carousel">
+      <div class="item p-2">
+        <div
+          class="shadow-sm rounded-3 p-4 mx-auto"
+          style="background-color: #ffffff"
+        >
+          <h5 class="fw-bold">MTPS V8K</h5>
+          <p>Tipe : Skala Besar/Kapasitas Besar</p>
+          <img src="img/1.png" alt="contoh" />
+          <div class="d-flex align-items-center gap-3 mt-3">
+            <div class="d-flex align-items-center gap-1">
+              <div class="icon">
+                <i class="fa-solid fa-bolt"></i>
+              </div>
+              <span>PLN</span>
+            </div>
+            <div class="d-flex align-items-center gap-1">
+              <div class="icon">
+                <i class="fa-solid fa-clock"></i>
+              </div>
+              <span>8 Kibik / Jam</span>
+            </div>
+          </div>
+          <div class="d-flex align-items-center justify-content-between mt-3">
+            <h6>Rp.300.000.000,00</h6>
+            <a
+              href="#"
+              class="btn fw-bold text-white"
+              style="background-color: #134aeb"
+              >Detail</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="item p-2">
+        <div
+          class="shadow-sm rounded-3 p-4 mx-auto"
+          style="background-color: #ffffff"
+        >
+          <h5 class="fw-bold">MTPS V1.2KSP</h5>
+          <p>Tipe : Skala Sampah Rumah Tangga</p>
+          <img
+            src="img/1.png"
+            alt="contoh"
+            style="max-width: 100%; height: full"
+          />
+          <div class="d-flex align-items-center gap-3 mt-3">
+            <div class="d-flex align-items-center gap-1">
+              <div class="icon">
+                <i class="fa-solid fa-bolt"></i>
+              </div>
+              <span>Solar Panel / PLN </span>
+            </div>
+            <div class="d-flex align-items-center gap-1">
+              <div class="icon">
+                <i class="fa-solid fa-clock"></i>
+              </div>
+              <span>1.2 Kibik / 30 menit</span>
+            </div>
+          </div>
+          <div class="d-flex align-items-center justify-content-between mt-3">
+            <h6>Rp. 12,000,000,00</h6>
+            <a
+              href="#"
+              class="btn fw-bold text-white"
+              style="background-color: #134aeb"
+              >Detail</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end product corousel -->
+
+    <!-- portfolio -->
+    <div class="container">
+      <div class="row portofolio">
+        <div class="col-12 mt-3">
+          <div
+            class="shadow-sm rounded-3 p-4 mx-auto"
+            style="background-color: #ffffff"
+          >
+            <h3>MTPS V8K-001</h3>
+            <h5>Kapasitas Besar</h5>
+            <div class="d-lg-flex align-items-center gap-3">
+              <div class="col-lg-3" style="height: 215px">
+                <img
+                  class="portfolio-img"
+                  src="/img/portofolio.png"
+                  alt="contoh"
+                  style="width: 100%; height: 100%"
+                />
+              </div>
+              <div>
+                <h4>MTPS V8K-001 / PANEMBONG</h4>
+                <h6>
+                  Instalasi Alat Mesin Thermal Pemusnah Sampah (MTPS) Skala Desa
+                  / Kapasitas Besar
+                </h6>
+                <p class="my-3">
+                  Sed fringilla ex. nibh hendrerit lorem. vitae non sed non nisi
+                  eu nisi ipsum sapien quam faucibus Praesent non est. odio sed
+                  dignissim, lorem. Ut libero, dui Ut Cras lacus, faucibus
+                  volutpat hendrerit consectetur Ut tincidunt vel amet, ac Sed
+                  fringilla ex. nibh hendrerit lorem. vitae non sed non nisi eu
+                  nisi ipsum sapien quam faucibus Praesent non est. odio sed
+                  dignissim, lorem. Ut libero, dui Ut Cras lacus, faucibus
+                  volutpat hendrerit consectetur Ut tincidunt vel amet, ac Sed
+                  fringilla ex. nibh hendrerit lorem. vitae non sed non nisi eu
+                  nisi ipsum sapien quam faucibus Praesent non est. odio sed
+                  dignissim, lorem. Ut libero, dui Ut Cras lacus, faucibus
+                  volutpat hendrerit consectetur Ut tincidunt vel amet, ac
+                </p>
+                <div class="icon">
+                  <div class="d-flex align-items-center gap-2">
+                    <i class="fa-solid fa-circle-exclamation"></i
+                    ><span>status aktif</span>
+                  </div>
+                  <div class="d-flex align-items-center gap-2">
+                    <i class="fa-solid fa-user-group"></i
+                    ><span>6 Karyawan</span>
+                  </div>
+                </div>
+              </div>
+              <!-- Gambar lokasi dengan link -->
+              <div class="col-lg-3">
+                <div class="mt-3">
+                  <a
+                    href="https://www.google.co.id/maps/@-7.1849578,112.6482031,21z?hl=id"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="/img/peta.png"
+                      alt="Lokasi MTPS V8K-001"
+                      style="max-width: 100%; height: auto; border-radius: 8px"
+                    />
+                  </a>
+                  <a
+                    href="https://www.google.co.id/maps/@-7.1849578,112.6482031,21z?hl=id"
+                    class="btn fw-bold text-white"
+                    style="background-color: #134aeb"
+                  >
+                    Lihat Peta
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 mt-5">
+          <div
+            class="shadow-sm rounded-3 p-4 mx-auto"
+            style="background-color: #ffffff"
+          >
+            <h3>MTPS V8K-001</h3>
+            <h5>Kapasitas Besar</h5>
+            <div class="d-lg-flex align-items-center gap-3">
+              <div class="col-lg-3" style="height: 215px">
+                <img
+                  src="/img/portofolio1.png"
+                  alt="contoh"
+                  style="width: 100%; height: 100%"
+                />
+              </div>
+              <div>
+                <h4>MTPS V8K-001 / PANEMBONG</h4>
+                <h6>
+                  Instalasi Alat Mesin Thermal Pemusnah Sampah (MTPS) Skala Desa
+                  / Kapasitas Besar
+                </h6>
+                <p class="my-3">
+                  Sed fringilla ex. nibh hendrerit lorem. vitae non sed non nisi
+                  eu nisi ipsum sapien quam faucibus Praesent non est. odio sed
+                  dignissim, lorem. Ut libero, dui Ut Cras lacus, faucibus
+                  volutpat hendrerit consectetur Ut tincidunt vel amet, ac Sed
+                  fringilla ex. nibh hendrerit lorem. vitae non sed non nisi eu
+                  nisi ipsum sapien quam faucibus Praesent non est. odio sed
+                  dignissim, lorem. Ut libero, dui Ut Cras lacus, faucibus
+                  volutpat hendrerit consectetur Ut tincidunt vel amet, ac Sed
+                  fringilla ex. nibh hendrerit lorem. vitae non sed non nisi eu
+                  nisi ipsum sapien quam faucibus Praesent non est. odio sed
+                  dignissim, lorem. Ut libero, dui Ut Cras lacus, faucibus
+                  volutpat hendrerit consectetur Ut tincidunt vel amet, ac
+                </p>
+                <div class="icon">
+                  <div class="d-flex align-items-center gap-2">
+                    <i class="fa-solid fa-circle-exclamation"></i
+                    ><span>status aktif</span>
+                  </div>
+                  <div class="d-flex align-items-center gap-2">
+                    <i class="fa-solid fa-user-group"></i
+                    ><span>6 Karyawan</span>
+                  </div>
+                </div>
+              </div>
+              <!-- Gambar lokasi dengan link -->
+              <div class="col-lg-3">
+                <div class="mt-3">
+                  <a
+                    href="https://www.google.co.id/maps/@-7.1849578,112.6482031,21z?hl=id"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="/img/peta.png"
+                      alt="Lokasi MTPS V8K-001"
+                      style="max-width: 100%; height: auto; border-radius: 8px"
+                    />
+                  </a>
+                  <a
+                    href="https://www.google.co.id/maps/@-7.1849578,112.6482031,21z?hl=id"
+                    class="btn fw-bold text-white"
+                    style="background-color: #134aeb"
+                  >
+                    Lihat Peta
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="d-flex align-items-center justify-content-center mt-4 mt-md-5"
+      >
+        <a
+          href="https://www.google.co.id/maps/@-7.1849578,112.6482031,21z?hl=id"
+          class="btn text-white px-5 py-2 button-porto"
+          style="background-color: #134aeb; border-radius: 2px"
+        >
+          Show More
+        </a>
+      </div>
+    </div>
+    <!-- end portfolio -->
+
+    <!-- footer -->
+    <div class="container-fluid mt-5 shadow" style="background-color: #fff">
+      <div class="container">
+        <div class="row footer">
+          <div class="col-md-6">
+            <div class="col-md-6 text-center text-sm-start">
+              <img
+                class="footer-img"
+                src="img/logo-footer.png"
+                alt="logo footer"
+              />
+            </div>
+            <p class="mt-3 footer-desc">
+              Our vision is to provide convenience and help increase your sales
+              business.
+            </p>
+            <div class="footer-mail">
+              <i class="fa-solid fa-envelope"></i>
+              <a href="">abastatech@gmail.com</a>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4">
+            <div class="d-flex justify-content-between">
+              <div class="col-md-6">
+                <div class="d-flex flex-column gap-2 footer-social">
+                  <h6>SOCIAL</h6>
+                  <a href="">Instagram</a>
+                  <a href="">Facebook</a>
+                  <a href="">WhatsApps</a>
+                </div>
+              </div>
+              <div class="col-md-6 d-flex flex-column gap-2 align-items-center">
+                <img
+                  src="img/barcode.png"
+                  alt="Barcode Footer"
+                  class="footer-barcode"
+                />
+                <p
+                  class="footer-barcode-p"
+                  style="
+                    font-family: 'Bai Jamjuree';
+                    font-weight: 500;
+                    color: #434343;
+                  "
+                >
+                  scan for more
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <p class="footer-copyright">@2024abasta.tech.com</p>
+        </div>
+      </div>
+    </div>
+    <!-- end footer -->
+
+    <!-- Slick Carousel JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"
+      integrity="sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"
+    ></script>
+    <script src="js/script.js"></script>
+    <!-- boostrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- fontewesome -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/js/all.min.js"
+      integrity="sha512-1JkMy1LR9bTo3psH+H4SV5bO2dFylgOy+UJhMus1zF4VEFuZVu5lsi4I6iIndE4N9p01z1554ZDcvMSjMaqCBQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>
