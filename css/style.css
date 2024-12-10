@@ -535,6 +535,42 @@ body {
   #next-arrow {
     display: none !important; /* Menambahkan !important agar aturan CSS ini diterapkan dengan prioritas tinggi */
   }
+
+  .card-product p {
+    color: #90a3bf;
+    font-weight: 700;
+    font-size: 10px;
+  }
+
+  .card-product .icon {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #90a3bf;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    color: #90a3bf;
+  }
+
+  .card-product span {
+    font-size: 12px;
+    color: #90a3bf;
+    font-weight: 600;
+  }
+
+  .card-product h6 {
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .card-product a {
+    text-decoration: none;
+    font-size: 10px;
+    padding: 6px 40px;
+    border-radius: 5px; /* Membuat border menjadi bulat */
+  }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
